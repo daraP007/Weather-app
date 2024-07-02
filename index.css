@@ -1,0 +1,92 @@
+body{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url("/asset/background.jpg");
+    background-size: cover;
+}
+
+.cityInput{
+    margin: 10px;
+    padding: 15px ;
+    font-size: 3em;
+    border-radius: 10px;
+}
+
+#citySubmit{
+    margin: 10px;
+    padding: 15px ;
+    font-size: 3em;
+    border-radius: 10px;
+    
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b );
+}
+
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: fit-content;
+    border: 5px white solid;
+    border-radius: 10px;
+    margin: 5px;
+    width: 40%;
+    height: 800px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eae4) 
+    
+
+}
+
+#citySubmit:hover{
+    background: linear-gradient(to bottom, #aa523b, #976a48 );
+}
+
+.weather-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.city-name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    color: aliceblue;
+    font-weight: bold;
+    
+    
+}
+
+.city-humidity{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: aliceblue;
+    margin: 2px 0;
+}
+
+.city-degree{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: aliceblue;
+    margin: 2px 0;
+}
+
+.city-weather{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: aliceblue;
+    margin: 5px 0;
+}
+
+.weather-logo{
+    font-size: 10em;
+    margin: 2px;
+   
+}
+
+.error-message{
+    font-size: 4em;
+    margin: 2px;
+    color: aliceblue;
+}
